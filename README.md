@@ -1,2 +1,2 @@
-# vimrc_repo
-Vim configuration file
+# Vim configuration file
+My vimrc config file 

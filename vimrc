@@ -24,13 +24,13 @@ au VimEnter * :e ~/workspace/notes/vimstartup.md
 "let g:vimwiki_list = [{'syntax': 'markdown', 'ext': '.wiki'}]
 
 let wiki_1 = {}
-let wiki_1.path = '~/vimwiki/'
+let wiki_1.path = '~/vimwiki/primary_wiki'
 let wiki_1.auto_diary_index = 1
 "let wiki_1.html_template = '~/public_html/template.tpl'
 "let wiki_1.nested_syntaxes = {'python': 'python', 'c++': 'cpp'}
 
 let wiki_2 = {}
-let wiki_2.path = '~/workspace/notes/vimwiki_trading/'
+let wiki_2.path = '~/vimwiki/vimwiki_trading/'
 let wiki_2.index = 'main'
 
 let g:vimwiki_list = [wiki_1, wiki_2]

@@ -2,4 +2,4 @@
 My vimrc config file 
 
 ## create symbolic link
-ln -sf /home/m/vimrc_repo/.vimrc ~/.vimrc
+ln -sf ~/vimrc_repo/vimrc ~/.vimrc
